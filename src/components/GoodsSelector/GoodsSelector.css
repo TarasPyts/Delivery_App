@@ -1,0 +1,59 @@
+.goods-selector {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  border: solid 1px #495057;
+  border-radius: 9px;
+  margin: 2rem;
+  width: 100%;
+  overflow: auto;
+}
+
+.burgerimage {
+  display: block;
+  margin: 10px auto;
+  width: 40%;
+}
+
+.burger-container {
+  display: grid;
+  margin: 5% 10%;
+  border: solid 1px #495057;
+  border-radius: 9px;
+  width: 80%;
+}
+
+.btn {
+  margin: 1rem 0.5rem;
+  justify-self: end;
+  border: solid 1px #495057;
+  border-radius: 9px;
+  padding: 3% 5%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #dee2e6;
+}
+
+.btn:active {
+  background-color: #495057;
+  color: white;
+}
+
+.no-shop-selected {
+  color: #228be6;
+  text-align: center;
+  font-size: 7rem;
+  margin: 10rem;
+  grid-column: 1 / -1;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.price {
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.shop-selector {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  border: solid 1px #495057;
+  border-radius: 9px;
+  margin: 2rem;
+  overflow: auto;
+}
+
+.item {
+  margin: 10%;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.shop {
+  line-height: 500%;
+  width: 80%;
+  text-align: center;
+  border: solid 1px #495057;
+  border-radius: 9px;
+}
+
+.selected {
+  background-color: #dee2e6;
+  font-weight: bold;
+}

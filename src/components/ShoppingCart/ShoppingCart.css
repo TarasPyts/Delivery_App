@@ -1,0 +1,10 @@
+.cart-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3%;
+}
+
+.submit {
+  grid-column: span 2;
+  justify-self: end;
+}

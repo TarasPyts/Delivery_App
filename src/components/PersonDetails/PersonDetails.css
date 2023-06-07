@@ -1,0 +1,18 @@
+.person-container {
+  border: solid 1px #495057;
+  border-radius: 9px;
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.section {
+  margin: 10% auto 10% 5%;
+}
+
+.person-container input {
+  margin: 2% 0;
+  width: 70%;
+  height: 2rem;
+  border: solid 1px #495057;
+  border-radius: 9px;
+}

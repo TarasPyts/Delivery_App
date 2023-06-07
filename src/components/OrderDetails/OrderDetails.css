@@ -1,0 +1,65 @@
+.order-container {
+  border: solid 1px #495057;
+  border-radius: 9px;
+  max-height: 70vh;
+  overflow: auto;
+}
+
+.item-container {
+  display: flex;
+}
+
+.food-image {
+  display: block;
+  margin: 10px 15%;
+  width: 30%;
+}
+
+.description {
+  margin-top: 25%;
+}
+
+.details {
+  display: grid;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.quantity input {
+  margin: 2% 0;
+  width: 70%;
+  height: 3rem;
+  border: solid 1px #495057;
+  border-radius: 9px 0 0 9px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.quantity input[type='number'] {
+  text-align: center;
+}
+
+.arrow-container {
+  display: grid;
+}
+
+.arrow {
+  border-width: 1px 1px 0 0;
+  border-color: #495057;
+  border-radius: 0 9px 0 0;
+  height: 1.5rem;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+.arrow:last-child {
+  border-radius: 0 0 9px 0;
+  border-width: 1px 1px 1px 0;
+}
