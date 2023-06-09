@@ -12,6 +12,7 @@ const ShoppingCart = ({
   setName,
   setEmail,
   setPhone,
+  address,
   setAddress,
 }) => {
   return (
@@ -20,6 +21,7 @@ const ShoppingCart = ({
         setName={setName}
         setEmail={setEmail}
         setPhone={setPhone}
+        address={address}
         setAddress={setAddress}
       />
       <OrderDetails cart={cart} setCart={setCart} />

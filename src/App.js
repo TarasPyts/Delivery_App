@@ -83,6 +83,7 @@ function App() {
                 setName={setName}
                 setEmail={setEmail}
                 setPhone={setPhone}
+                address={address}
                 setAddress={setAddress}
                 selectedShop={selectedShop}
               />
